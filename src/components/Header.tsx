@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/about", label: "Обо мне" },
   { href: "/methodology", label: "Копилка" },
   { href: "/parents", label: "Родителям" },
+  { href: "/students", label: "Ученикам" },
 ];
 
 export default function Header({ className }: HeaderProps) {
