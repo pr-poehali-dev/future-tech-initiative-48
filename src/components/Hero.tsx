@@ -20,18 +20,36 @@ export default function Hero() {
       >
         <img
           src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          alt="Пейзаж"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
-        </p>
+      <div className="relative z-10 text-center text-white px-6 flex flex-col items-center gap-8">
+        <div>
+          <p className="text-sm md:text-base uppercase tracking-widest opacity-80 mb-3">
+            Добро пожаловать
+          </p>
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4">
+            ИНТЕЛЛЕКТУАЛЬНЫЙ МИР
+          </h1>
+          <p className="text-lg md:text-xl opacity-90 max-w-xl mx-auto">
+            Пространство знаний для учеников, коллег и родителей
+          </p>
+        </div>
+
+        <div className="flex flex-col sm:flex-row items-center gap-6 mt-4">
+          <img
+            src="https://cdn.poehali.dev/projects/0f1c8d80-ef5c-41bb-8e18-f9770cacba54/files/501403ff-e3c3-45af-9094-0f86dd74dce4.jpg"
+            alt="Тоетов Сергей Эжерович"
+            className="w-24 h-24 rounded-full object-cover border-2 border-white/60"
+          />
+          <div className="text-left">
+            <p className="text-xl md:text-2xl font-semibold">Тоетов Сергей Эжерович</p>
+            <p className="text-sm md:text-base opacity-75 mt-1">Студент-практикант · Будущий учитель</p>
+          </div>
+        </div>
       </div>
     </div>
   );
